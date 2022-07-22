@@ -1,0 +1,12 @@
+name: CWCasino
+version: '1.0.0-SNAPSHOT'
+main: ru.cactusworld.cwcasino.CWCasino
+depend: [ Vault ]
+authors: [ itzRedTea ]
+description: Casino plugin for CactusWorld
+permissions:
+  casino.use:
+    description: Default permission for use casino
+    default: true
+  casino.reload:
+    description: Permission for reload casino plugin
